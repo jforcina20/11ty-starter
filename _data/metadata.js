@@ -4,7 +4,7 @@ const title = "Eleventy starter";
 module.exports = {
     en: {
         url,
-        title,
+        title: "John's 11ty-starter template Blog",
         description: "TODO",
         feed: {
             subtitle: "TODO",
