@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Eleventy starter</title>
+	<title>John&#39;s 11ty-starter template Blog</title>
 	<subtitle>TODO</subtitle>
 	
 	<link href="https://example.com/11ty-starter/feed/en.feed.xml" rel="self"/>
