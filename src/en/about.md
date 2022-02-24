@@ -7,4 +7,4 @@ eleventyNavigation:
     order: 2
 ---
 
-TODO: write about yourself.
+I'm John, a student in IST 402 learning about open web components and micro-frontends. 

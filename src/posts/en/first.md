@@ -1,247 +1,60 @@
 ---
-title: Markdown demo
-description: Article styles
-date: 2022-01-01
+title: Getting started with web components
+description: Using open-wc
+date: 2022-01-16
 tags:
-  - style
+  - posts
 layout: layouts/post.njk
 ---
 
----
-Check out [markdown-it demo](https://markdown-it.github.io/).
+Prior to this week, when I thought of web development I thought of HTML and CSS. I only had a vague understanding of JavaScript and had heard of Node.js but didn't know what it was. Now join me in getting all the necessary tooling installed to launch a simple hello-world web component. 
 
----
+## What are web components?
+Web components are a collection of web platform APIs that can be used to create custom and reusable HTML tags to be used in web pages and web apps. Learn more about them [here.](https://www.webcomponents.org/introduction)
 
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+We'll be using open-wc in this post. It simplifies the process of developing web components by providing guides, tools, and libraries. Check out the [open-wc website](https://open-wc.org/) to learn more. 
 
+## Node.js
+This is the easiest step. To download Node.js, head over to [https://nodejs.org/](https://nodejs.org/) and click to download the LTS version for more stability. Download the installer and run it. 
 
-## Horizontal Rules
+Why do you need Node.js? Node is a lightweight JavaScript runtime that allows you to run server-side programming to quickly build network applications. 
 
-___
+## npm
+npm is a package manager for JavaScript and is the default package manager for Node.js. Basically, npm lets you use code written by others in your own project without having to write it yourself. 
 
----
+When you installed Node, npm was installed at the same time. You can check if it was installed and see which version you have by opening terminal and running `npm --version`
 
-***
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ugxk9mnpcq1mr24x3t9l.png)
 
+## Yarn
+Yarn is another JavaScript package manager, similar to npm. This is an optional step, you can choose to install it after installing Node and npm. To install, open terminal and run `npm install --global yarn`
 
-## Typographic replacements
+You can check to make sure it installed by running `yarn --version`
 
-Enable typographer option to see result.
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c9vi2rp1o4dlf45qn4yh.png)
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+## Create a directory for your web component
+Now that all the tooling is installed, you're just about ready to get started. First, create a directory for your project. I created one by running `mkdir -p ~/Documents/git/ist402` but you can name it or place it wherever you want. 
 
-test.. test... test..... test?..... test!....
+## Starting your open-wc component
+After navigating to your desired directory, run `npm init @open-wc` If there are no problems, you should be greeted with this screen:
 
-!!!!!! ???? ,,  -- ---
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0n1giwtztfnj8aapgzkn.png)
 
-"Smartypants, double quotes" and 'single quotes'
+Congratulations! You're ready to start working on your web component. Push enter to start your new project and choose the settings you want. Here's a list of everything I chose:
 
+* Web Component
+* Enable Linting, Testing, and Demoing 
+* No TypeScript
+* Install dependencies with yarn
 
-## Emphasis
+To start your component, run either `npm start` or `yarn start` depending on which package manager you installed. Your default web browser will launch and you'll see your web component!
 
-**This is bold text**
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wdvvc7fvkf66w412yx3o.png)
 
-__This is bold text__
+## What do these files do?
+Even a simple Hello World web component relies on many files for their functionality. You can check them out yourself (especially the /src folder) and see what's going on behind the scenes. 
 
-*This is italic text*
+Checking out [Lit playground](https://lit.dev/playground/#sample=examples/full-component) was very helpful in understanding the JavaScript used in a boilerplate web component like the one I just made.
 
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+I went through and commented what I thought several code blocks do. Take a look at my [git repository](https://github.com/jforcina20/edtechjoker-lab1) for this lab and see that I still have a lot to learn about web components myself!
