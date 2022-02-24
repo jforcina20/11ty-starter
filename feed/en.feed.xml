@@ -5,124 +5,57 @@
 	
 	<link href="https://example.com/11ty-starter/feed/en.feed.xml" rel="self"/>
 	<link href="https://example.com"/>
-	<updated>2022-01-05T00:00:00Z</updated>
+	<updated>2022-01-30T00:00:00Z</updated>
 	<id>TODO</id>
 	<author>
-		<name>Your name</name>
+		<name>John Forcina</name>
 		<email>example@mail.com</email>
 	</author>
 	
 	<entry>
-		<title>This is my fifth post.</title>
-		<link href="https://example.com/11ty-starter/posts/en/fifth/"/>
-		<updated>2022-01-05T00:00:00Z</updated>
-		<id>https://example.com/11ty-starter/posts/en/fifth/</id>
-		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/fifth/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;fifth post post&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Item&lt;/th&gt;
-&lt;th&gt;Price&lt;/th&gt;
-&lt;th&gt;# In stock&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Juicy Apples&lt;/td&gt;
-&lt;td&gt;1.99&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;7&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Bananas&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;1.89&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;5234&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my fourth post.</title>
-		<link href="https://example.com/11ty-starter/posts/en/fourth/"/>
-		<updated>2022-01-04T00:00:00Z</updated>
-		<id>https://example.com/11ty-starter/posts/en/fourth/</id>
-		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/fourth/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;fourth post post&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://google.com/&quot;&gt;google&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://duckduckgo.com/&quot;&gt;ddg&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://bing.com/&quot;&gt;bing&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://ya.ru/&quot;&gt;ya&lt;/a&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my third post.</title>
-		<link href="https://example.com/11ty-starter/posts/en/third/"/>
-		<updated>2022-01-03T00:00:00Z</updated>
-		<id>https://example.com/11ty-starter/posts/en/third/</id>
-		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/third/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;third post post&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;c = &#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my second post.</title>
+		<title>Using the Wikipedia API via the wikipedia-query tag</title>
 		<link href="https://example.com/11ty-starter/posts/en/second/"/>
-		<updated>2022-01-02T00:00:00Z</updated>
+		<updated>2022-01-30T00:00:00Z</updated>
 		<id>https://example.com/11ty-starter/posts/en/second/</id>
-		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/second/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+		<content type="html">&lt;p&gt;While familiar with them, prior to this week in class I had never used an API. APIs are useful tools that enable developers to connect to another service, Wikipedia in the case of this blog post, and communicate data.&lt;/p&gt;
+&lt;h2 id=&quot;fetch&quot; tabindex=&quot;-1&quot;&gt;Fetch &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/second/#fetch&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
 &lt;/svg&gt;
 
 
-&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;second post&lt;/p&gt;
+&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;fetch&lt;/code&gt; is a JavaScript interface for making HTTP requests and receiving responses. It is a common way to retrieve data over the internet via APIs. In this lab, using &lt;code&gt;fetch&lt;/code&gt; enables me to make an HTTP GET request for information from the Wikipedia API and send the response to be rendered by a web component. Take a look at how &lt;code&gt;fetch&lt;/code&gt; is used in the wikipedia-query.js file:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;updateArticle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;search&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; headers&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; language&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;language&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;.wikipedia.org/w/api.php?origin=*&amp;amp;action=query&amp;amp;titles=&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;search&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;amp;prop=extracts&amp;amp;format=json&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;      headers&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;handleResponse&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;json&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After sending the request to the Wikipedia API (which I’ll go over next) the resulting JSON response is sent to a LitElement to be rendered in HTML.&lt;/p&gt;
+&lt;p&gt;The DOM is updated when variables are updated and may require the page to be re-rendered with new data. &lt;code&gt;fetch&lt;/code&gt; can be used to assign variables data from an API. When the API is called and the variables are updated, the DOM is updated and the page is re-rendered.&lt;/p&gt;
+&lt;h2 id=&quot;wikipedia-api&quot; tabindex=&quot;-1&quot;&gt;Wikipedia API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/second/#wikipedia-api&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+
+&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Wikipedia API allows developers to connect to Wikipedia and search or manage wiki entries. While the API has several actions, in this lab specifically I am using the query function. According to the &lt;a href=&quot;https://www.mediawiki.org/wiki/API:Query&quot;&gt;API documentation&lt;/a&gt;: “The &lt;code&gt;action=query&lt;/code&gt; module allows you to fetch information about a wiki and the data stored in it, such as the wikitext of a particular page, the links and categories of a set of pages, or the token you need to change wiki content.” This lab is specifically querying for extracts of the specified pages.&lt;/p&gt;
+&lt;p&gt;To use the API in this lab, I placed the &lt;code&gt;wikipedia-query&lt;/code&gt; tag in the LocationFromIP.js file that is responsible for retrieving the location of the user who opens the page and rendering it on an embedded Google Map. I took the city and state data from the location API and stored it in two objects.&lt;/p&gt;
+&lt;p&gt;I placed three tags at the bottom of the render function for the map iframe and link.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://maps.google.com/maps?q=&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lat&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;long&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;amp;t=&amp;amp;z=15&amp;amp;ie=UTF8&amp;amp;iwloc=&amp;amp;output=embed&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; html&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&lt;br /&gt;      &amp;lt;iframe title=&quot;Where you are&quot; src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&amp;lt;/iframe&gt;&lt;br /&gt;      &amp;lt;p&gt;&lt;br /&gt;        &amp;lt;a href=&quot;https://www.google.com/maps/@&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lat&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;long&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;,14z&quot;&lt;br /&gt;          &gt;https://www.google.com/maps/@&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lat&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;long&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;,14z&amp;lt;/a&lt;br /&gt;        &gt;&lt;br /&gt;      &amp;lt;/p&gt;&lt;br /&gt;      &amp;lt;wikipedia-query search=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;city&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&amp;lt;/wikipedia-query&gt;&lt;br /&gt;      &amp;lt;wikipedia-query search=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;city&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&amp;lt;/wikipedia-query&gt;&lt;br /&gt;      &amp;lt;wikipedia-query search=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&amp;lt;/wikipedia-query&gt;&lt;br /&gt;    &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The way the Wikipedia API works in this lab starts with the &lt;code&gt;wikipedia-query&lt;/code&gt; tag. The location value is sent to the API as the search value for the &lt;code&gt;fetch&lt;/code&gt;. After receiving the request, the API searches for a wiki page that matches the title sent. If a match is found, a JSON response is sent containing HTML extracts for that wiki page. An example JSON response for State College, Pennsylvania is shown below:&lt;/p&gt;
+&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;batchcomplete&lt;span class=&quot;token string&quot;&gt;&quot;: &quot;&lt;/span&gt;&quot;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;warnings&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;extracts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &quot;HTML may be malformed and/or unbalanced and may omit &lt;br /&gt;inline images. Use at your own risk. Known problems are &lt;br /&gt;listed at &lt;br /&gt;https&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;//www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats.&quot;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;query&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;pages&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;131800&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;pageid&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;131800&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;ns&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;State College, Pennsylvania&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token property&quot;&gt;&quot;extract&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &quot;&amp;lt;link rel=\&quot;mw-deduplicated-inline-style\&quot; href=\&quot;mw-data&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;TemplateStyles&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;r1033289096\&quot;&gt;\n&amp;lt;p class=\&quot;mw-empty-elt\&quot;&gt;\n&amp;lt;/p&gt;\n&amp;lt;p&gt;&amp;lt;b&gt;State College&amp;lt;/b&gt; is a home rule municipality in Centre County in the Commonwealth of Pennsylvania.  It is a college town&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dominated economically and demographically by the presence of the University Park campus of the Pennsylvania State University (Penn State).\n&amp;lt;/p&gt;&amp;lt;p&gt;State College is the largest designated borough in Pennsylvania. It is the principal borough of the six municipalities that make up the State College area&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; the largest settlement in Centre County and one of the principal cities of the greater State College-DuBois Combined Statistical Area with a combined population of &lt;span class=&quot;token number&quot;&gt;236&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;577&lt;/span&gt; as of the &lt;span class=&quot;token number&quot;&gt;2010&lt;/span&gt; United States Census. In the &lt;span class=&quot;token number&quot;&gt;2010&lt;/span&gt; census&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; the borough population was &lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;034&lt;/span&gt; with approximately &lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;000&lt;/span&gt; living in the borough plus the surrounding townships often referred to locally as the \&quot;Centre Region.\&quot; Many of these Centre Region communities also carry a \&quot;State College&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; PA\&quot; address although they are not part of the borough of State College.  \&quot;Happy Valley\&quot; and \&quot;Lion Country\&quot; are other terms used to identify the State College area including the borough as well as the townships of College&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Harris&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Patton&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; and Ferguson.\n&amp;lt;/p&gt;\n\n\n&amp;lt;h2&gt;&amp;lt;span id=\&quot;History\&quot;&gt;History&amp;lt;/span&gt;&amp;lt;/h2&gt;\n&amp;lt;p&gt;State College evolved from a village to a town to serve the needs of the Pennsylvania State College&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; founded as the Farmers&#39; High School of Pennsylvania in &lt;span class=&quot;token number&quot;&gt;1855&lt;/span&gt;. State College was incorporated as a borough on August &lt;span class=&quot;token number&quot;&gt;29&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1896&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; and has grown with the college&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; which was renamed The Pennsylvania State University in &lt;span class=&quot;token number&quot;&gt;1953&lt;/span&gt;.\n&amp;lt;/p&gt;&amp;lt;p&gt;In &lt;span class=&quot;token number&quot;&gt;1973&lt;/span&gt; State College adopted a home rule charter which took effect in &lt;span class=&quot;token number&quot;&gt;1976&lt;/span&gt;; since then&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; it has not been governed by the state&#39;s Borough Code&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; although it retains \&quot;Borough of State College\&quot; as its official name.\n&amp;lt;/p&gt;&amp;lt;p&gt;The university has a post office address of University Park&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Pennsylvania. When Penn State changed its name from College to University in &lt;span class=&quot;token number&quot;&gt;1953&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; its president&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Milton S. Eisenhower&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sought to persuade the town to change its name as well. A referendum failed to yield a majority for any of the choices for a new name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; and so the town remains State College. After this&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Penn State requested a new name for its on-campus post office in the HUB-Robeson Center from the U.S. Post Office Department. The post office&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; which has since moved across an alley to the McAllister Building&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; is the official home of ZIP code &lt;span class=&quot;token number&quot;&gt;16802&lt;/span&gt; (University Park)...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The response is rendered in HTML to be displayed on the page.&lt;/p&gt;
+&lt;p&gt;This API is a useful tool for people trying to access information about anything Wikipedia has a wiki on. You can check out the API documentation &lt;a href=&quot;https://en.wikipedia.org/w/api.php&quot;&gt;here&lt;/a&gt;. Take a look at the source code for this lab in my &lt;a href=&quot;https://github.com/jforcina20/ip-project/blob/master/src/LocationFromIP.js&quot;&gt;github repository&lt;/a&gt; to learn more about how I completed it.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>Markdown demo</title>
+		<title>Getting started with web components</title>
 		<link href="https://example.com/11ty-starter/posts/en/first/"/>
-		<updated>2022-01-01T00:00:00Z</updated>
+		<updated>2022-01-16T00:00:00Z</updated>
 		<id>https://example.com/11ty-starter/posts/en/first/</id>
-		<content type="html">&lt;hr /&gt;
-&lt;p&gt;Check out &lt;a href=&quot;https://markdown-it.github.io/&quot;&gt;markdown-it demo&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1 id=&quot;h1-heading&quot; tabindex=&quot;-1&quot;&gt;h1 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#h1-heading&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&quot;h2-heading&quot; tabindex=&quot;-1&quot;&gt;h2 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#h2-heading&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+		<content type="html">&lt;p&gt;Prior to this week, when I thought of web development I thought of HTML and CSS. I only had a vague understanding of JavaScript and had heard of Node.js but didn’t know what it was. Now join me in getting all the necessary tooling installed to launch a simple hello-world web component.&lt;/p&gt;
+&lt;h2 id=&quot;what-are-web-components%3F&quot; tabindex=&quot;-1&quot;&gt;What are web components? &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#what-are-web-components%3F&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -130,39 +63,9 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;h3-heading&quot; tabindex=&quot;-1&quot;&gt;h3 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#h3-heading&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id=&quot;h4-heading&quot; tabindex=&quot;-1&quot;&gt;h4 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#h4-heading&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h4&gt;
-&lt;h5 id=&quot;h5-heading&quot; tabindex=&quot;-1&quot;&gt;h5 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#h5-heading&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h5&gt;
-&lt;h6 id=&quot;h6-heading&quot; tabindex=&quot;-1&quot;&gt;h6 Heading &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#h6-heading&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h6&gt;
-&lt;h2 id=&quot;horizontal-rules&quot; tabindex=&quot;-1&quot;&gt;Horizontal Rules &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#horizontal-rules&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+&lt;p&gt;Web components are a collection of web platform APIs that can be used to create custom and reusable HTML tags to be used in web pages and web apps. Learn more about them &lt;a href=&quot;https://www.webcomponents.org/introduction&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ll be using open-wc in this post. It simplifies the process of developing web components by providing guides, tools, and libraries. Check out the &lt;a href=&quot;https://open-wc.org/&quot;&gt;open-wc website&lt;/a&gt; to learn more.&lt;/p&gt;
+&lt;h2 id=&quot;node.js&quot; tabindex=&quot;-1&quot;&gt;Node.js &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#node.js&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -170,10 +73,9 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;hr /&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;typographic-replacements&quot; tabindex=&quot;-1&quot;&gt;Typographic replacements &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#typographic-replacements&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+&lt;p&gt;This is the easiest step. To download Node.js, head over to &lt;a href=&quot;https://nodejs.org/&quot;&gt;https://nodejs.org/&lt;/a&gt; and click to download the LTS version for more stability. Download the installer and run it.&lt;/p&gt;
+&lt;p&gt;Why do you need Node.js? Node is a lightweight JavaScript runtime that allows you to run server-side programming to quickly build network applications.&lt;/p&gt;
+&lt;h2 id=&quot;npm&quot; tabindex=&quot;-1&quot;&gt;npm &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#npm&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -181,12 +83,10 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;
-&lt;p&gt;© © ® ® ™ ™ § § ±&lt;/p&gt;
-&lt;p&gt;test… test… test… test?.. test!..&lt;/p&gt;
-&lt;p&gt;!!! ??? ,  – —&lt;/p&gt;
-&lt;p&gt;“Smartypants, double quotes” and ‘single quotes’&lt;/p&gt;
-&lt;h2 id=&quot;emphasis&quot; tabindex=&quot;-1&quot;&gt;Emphasis &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#emphasis&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+&lt;p&gt;npm is a package manager for JavaScript and is the default package manager for Node.js. Basically, npm lets you use code written by others in your own project without having to write it yourself.&lt;/p&gt;
+&lt;p&gt;When you installed Node, npm was installed at the same time. You can check if it was installed and see which version you have by opening terminal and running &lt;code&gt;npm --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ugxk9mnpcq1mr24x3t9l.png&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;yarn&quot; tabindex=&quot;-1&quot;&gt;Yarn &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#yarn&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -194,12 +94,10 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;s&gt;Strikethrough&lt;/s&gt;&lt;/p&gt;
-&lt;h2 id=&quot;blockquotes&quot; tabindex=&quot;-1&quot;&gt;Blockquotes &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#blockquotes&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+&lt;p&gt;Yarn is another JavaScript package manager, similar to npm. This is an optional step, you can choose to install it after installing Node and npm. To install, open terminal and run &lt;code&gt;npm install --global yarn&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can check to make sure it installed by running &lt;code&gt;yarn --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c9vi2rp1o4dlf45qn4yh.png&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;create-a-directory-for-your-web-component&quot; tabindex=&quot;-1&quot;&gt;Create a directory for your web component &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#create-a-directory-for-your-web-component&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -207,16 +105,8 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Blockquotes can also be nested…&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;…by using additional greater-than signs right next to each other…&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;…or with spaces between arrows.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;lists&quot; tabindex=&quot;-1&quot;&gt;Lists &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#lists&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+&lt;p&gt;Now that all the tooling is installed, you’re just about ready to get started. First, create a directory for your project. I created one by running &lt;code&gt;mkdir -p ~/Documents/git/ist402&lt;/code&gt; but you can name it or place it wherever you want.&lt;/p&gt;
+&lt;h2 id=&quot;starting-your-open-wc-component&quot; tabindex=&quot;-1&quot;&gt;Starting your open-wc component &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#starting-your-open-wc-component&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -224,50 +114,18 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Unordered&lt;/p&gt;
+&lt;p&gt;After navigating to your desired directory, run &lt;code&gt;npm init @open-wc&lt;/code&gt; If there are no problems, you should be greeted with this screen:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0n1giwtztfnj8aapgzkn.png&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Congratulations! You’re ready to start working on your web component. Push enter to start your new project and choose the settings you want. Here’s a list of everything I chose:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Create a list by starting a line with &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, or &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Sub-lists are made by indenting 2 spaces:
-&lt;ul&gt;
-&lt;li&gt;Marker character change forces new list start:
-&lt;ul&gt;
-&lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+&lt;li&gt;Web Component&lt;/li&gt;
+&lt;li&gt;Enable Linting, Testing, and Demoing&lt;/li&gt;
+&lt;li&gt;No TypeScript&lt;/li&gt;
+&lt;li&gt;Install dependencies with yarn&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Nulla volutpat aliquam velit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Very easy!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ordered&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Consectetur adipiscing elit&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Integer molestie lorem at massa&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You can use sequential numbers…&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;…or keep all the numbers as &lt;code&gt;1.&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Start numbering with offset:&lt;/p&gt;
-&lt;ol start=&quot;57&quot;&gt;
-&lt;li&gt;foo&lt;/li&gt;
-&lt;li&gt;bar&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#code&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+&lt;p&gt;To start your component, run either &lt;code&gt;npm start&lt;/code&gt; or &lt;code&gt;yarn start&lt;/code&gt; depending on which package manager you installed. Your default web browser will launch and you’ll see your web component!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wdvvc7fvkf66w412yx3o.png&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;what-do-these-files-do%3F&quot; tabindex=&quot;-1&quot;&gt;What do these files do? &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#what-do-these-files-do%3F&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
   &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
@@ -275,209 +133,9 @@
 
 
 &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Inline &lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Indented code&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Block code “fences”&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Sample text here...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Syntax highlighting&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; bar&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;tables&quot; tabindex=&quot;-1&quot;&gt;Tables &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#tables&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Option&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;data&lt;/td&gt;
-&lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;engine&lt;/td&gt;
-&lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ext&lt;/td&gt;
-&lt;td&gt;extension to be used for dest files.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Right aligned columns&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&quot;text-align:right&quot;&gt;Option&lt;/th&gt;
-&lt;th style=&quot;text-align:right&quot;&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;data&lt;/td&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;engine&lt;/td&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;ext&lt;/td&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;extension to be used for dest files.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&quot;links&quot; tabindex=&quot;-1&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#links&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://dev.nodeca.com/&quot;&gt;link text&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://nodeca.github.io/pica/demo/&quot; title=&quot;title text!&quot;&gt;link with title&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Autoconverted link &lt;a href=&quot;https://github.com/nodeca/pica&quot;&gt;https://github.com/nodeca/pica&lt;/a&gt; (enable linkify to see)&lt;/p&gt;
-&lt;h2 id=&quot;images&quot; tabindex=&quot;-1&quot;&gt;Images &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#images&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/minion.png&quot; alt=&quot;Minion&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://octodex.github.com/images/stormtroopocat.jpg&quot; alt=&quot;Stormtroopocat&quot; title=&quot;The Stormtroopocat&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Like links, Images also have a footnote style syntax&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;With a reference later in the document defining the URL location:&lt;/p&gt;
-&lt;h2 id=&quot;plugins&quot; tabindex=&quot;-1&quot;&gt;Plugins &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#plugins&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The killer feature of &lt;code&gt;markdown-it&lt;/code&gt; is very effective support of&lt;br /&gt;
-&lt;a href=&quot;https://www.npmjs.org/browse/keyword/markdown-it-plugin&quot;&gt;syntax plugins&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;emojies&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji&quot;&gt;Emojies&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#emojies&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:&lt;/p&gt;
-&lt;p&gt;Shortcuts (emoticons): :-) :-( 8-) ;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;see &lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji#change-output&quot;&gt;how to change output&lt;/a&gt; with twemoji.&lt;/p&gt;
-&lt;h3 id=&quot;subscript-%2F-superscript&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-sub&quot;&gt;Subscript&lt;/a&gt; / &lt;a href=&quot;https://github.com/markdown-it/markdown-it-sup&quot;&gt;Superscript&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#subscript-%2F-superscript&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;19^th^&lt;/li&gt;
-&lt;li&gt;H~2~O&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;%3Cins%3E&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-ins&quot;&gt;&amp;lt;ins&amp;gt;&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#%3Cins%3E&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;++Inserted text++&lt;/p&gt;
-&lt;h3 id=&quot;%3Cmark%3E&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-mark&quot;&gt;&amp;lt;mark&amp;gt;&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#%3Cmark%3E&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;==Marked text==&lt;/p&gt;
-&lt;h3 id=&quot;footnotes&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-footnote&quot;&gt;Footnotes&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#footnotes&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Footnote 1 link[^first].&lt;/p&gt;
-&lt;p&gt;Footnote 2 link[^second].&lt;/p&gt;
-&lt;p&gt;Inline footnote^[Text of inline footnote] definition.&lt;/p&gt;
-&lt;p&gt;Duplicated footnote reference[^second].&lt;/p&gt;
-&lt;p&gt;[^first]: Footnote &lt;strong&gt;can have markup&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;and multiple paragraphs.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;[^second]: Footnote text.&lt;/p&gt;
-&lt;h3 id=&quot;definition-lists&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-deflist&quot;&gt;Definition lists&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#definition-lists&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Term 1&lt;/p&gt;
-&lt;p&gt;:   Definition 1&lt;br /&gt;
-with lazy continuation.&lt;/p&gt;
-&lt;p&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;:   Definition 2&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;Compact style:&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Term 1&lt;br /&gt;
-~ Definition 1&lt;/p&gt;
-&lt;p&gt;Term 2&lt;br /&gt;
-~ Definition 2a&lt;br /&gt;
-~ Definition 2b&lt;/p&gt;
-&lt;h3 id=&quot;abbreviations&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-abbr&quot;&gt;Abbreviations&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#abbreviations&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;This is HTML abbreviation example.&lt;/p&gt;
-&lt;p&gt;It converts “HTML”, but keep intact partial entries like “xxxHTMLyyy” and so on.&lt;/p&gt;
-&lt;p&gt;*[HTML]: Hyper Text Markup Language&lt;/p&gt;
-&lt;h3 id=&quot;custom-containers&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-container&quot;&gt;Custom containers&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/11ty-starter/posts/en/first/#custom-containers&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
-  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
-  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;::: warning&lt;br /&gt;
-&lt;em&gt;here be dragons&lt;/em&gt;&lt;br /&gt;
-:::&lt;/p&gt;
+&lt;p&gt;Even a simple Hello World web component relies on many files for their functionality. You can check them out yourself (especially the /src folder) and see what’s going on behind the scenes.&lt;/p&gt;
+&lt;p&gt;Checking out &lt;a href=&quot;https://lit.dev/playground/#sample=examples/full-component&quot;&gt;Lit playground&lt;/a&gt; was very helpful in understanding the JavaScript used in a boilerplate web component like the one I just made.&lt;/p&gt;
+&lt;p&gt;I went through and commented what I thought several code blocks do. Take a look at my &lt;a href=&quot;https://github.com/jforcina20/edtechjoker-lab1&quot;&gt;git repository&lt;/a&gt; for this lab and see that I still have a lot to learn about web components myself!&lt;/p&gt;
 </content>
 	</entry>
 </feed>

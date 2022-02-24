@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         
-            <title>Markdown demo</title>
-            <meta name="description" content="Article styles">
+            <title>Getting started with web components</title>
+            <meta name="description" content="Using open-wc">
         
 
         
@@ -19,8 +19,8 @@
 
         
             
-            <link rel="preload" href="/11ty-starter/assets/css/index.EozAlJPXF6fCO4SgIN1JO.min.css" as="style" />
-            <link rel="stylesheet" href="/11ty-starter/assets/css/index.EozAlJPXF6fCO4SgIN1JO.min.css" type="text/css" />
+            <link rel="preload" href="/11ty-starter/assets/css/index.BGwz1KM9GsUYXyY-U7FsF.min.css" as="style" />
+            <link rel="stylesheet" href="/11ty-starter/assets/css/index.BGwz1KM9GsUYXyY-U7FsF.min.css" type="text/css" />
         
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,27 +58,17 @@
 <div class="p-article">
     <div class="p-article_hero">
         
-        <time class="p-article_date" datetime="2022-01-01">
-            01 Jan 2022
+        <time class="p-article_date" datetime="2022-01-16">
+            16 Jan 2022
         </time>
-        <h1 class="p-article_title">Markdown demo</h1>
-        <div class="p-artilce_tags"><a href="/11ty-starter/tags/style/" class="c-underline-link">style</a>
+        <h1 class="p-article_title">Getting started with web components</h1>
+        <div class="p-artilce_tags">
         </div>
     </div>
 
     <div role="main" class="c-content">
-        <hr>
-<p>Check out <a href="https://markdown-it.github.io/">markdown-it demo</a>.</p>
-<hr>
-<h1 id="h1-heading" tabindex="-1">h1 Heading <a class="direct-link" href="#h1-heading"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h1>
-<h2 id="h2-heading" tabindex="-1">h2 Heading <a class="direct-link" href="#h2-heading"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <p>Prior to this week, when I thought of web development I thought of HTML and CSS. I only had a vague understanding of JavaScript and had heard of Node.js but didn’t know what it was. Now join me in getting all the necessary tooling installed to launch a simple hello-world web component.</p>
+<h2 id="what-are-web-components%3F" tabindex="-1">What are web components? <a class="direct-link" href="#what-are-web-components%3F"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -86,39 +76,9 @@
 
 
 </a></h2>
-<h3 id="h3-heading" tabindex="-1">h3 Heading <a class="direct-link" href="#h3-heading"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<h4 id="h4-heading" tabindex="-1">h4 Heading <a class="direct-link" href="#h4-heading"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h4>
-<h5 id="h5-heading" tabindex="-1">h5 Heading <a class="direct-link" href="#h5-heading"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h5>
-<h6 id="h6-heading" tabindex="-1">h6 Heading <a class="direct-link" href="#h6-heading"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h6>
-<h2 id="horizontal-rules" tabindex="-1">Horizontal Rules <a class="direct-link" href="#horizontal-rules"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<p>Web components are a collection of web platform APIs that can be used to create custom and reusable HTML tags to be used in web pages and web apps. Learn more about them <a href="https://www.webcomponents.org/introduction">here.</a></p>
+<p>We’ll be using open-wc in this post. It simplifies the process of developing web components by providing guides, tools, and libraries. Check out the <a href="https://open-wc.org/">open-wc website</a> to learn more.</p>
+<h2 id="node.js" tabindex="-1">Node.js <a class="direct-link" href="#node.js"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -126,10 +86,9 @@
 
 
 </a></h2>
-<hr>
-<hr>
-<hr>
-<h2 id="typographic-replacements" tabindex="-1">Typographic replacements <a class="direct-link" href="#typographic-replacements"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<p>This is the easiest step. To download Node.js, head over to <a href="https://nodejs.org/">https://nodejs.org/</a> and click to download the LTS version for more stability. Download the installer and run it.</p>
+<p>Why do you need Node.js? Node is a lightweight JavaScript runtime that allows you to run server-side programming to quickly build network applications.</p>
+<h2 id="npm" tabindex="-1">npm <a class="direct-link" href="#npm"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -137,12 +96,10 @@
 
 
 </a></h2>
-<p>Enable typographer option to see result.</p>
-<p>© © ® ® ™ ™ § § ±</p>
-<p>test… test… test… test?.. test!..</p>
-<p>!!! ??? ,  – —</p>
-<p>“Smartypants, double quotes” and ‘single quotes’</p>
-<h2 id="emphasis" tabindex="-1">Emphasis <a class="direct-link" href="#emphasis"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<p>npm is a package manager for JavaScript and is the default package manager for Node.js. Basically, npm lets you use code written by others in your own project without having to write it yourself.</p>
+<p>When you installed Node, npm was installed at the same time. You can check if it was installed and see which version you have by opening terminal and running <code>npm --version</code></p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ugxk9mnpcq1mr24x3t9l.png" alt="Image description"></p>
+<h2 id="yarn" tabindex="-1">Yarn <a class="direct-link" href="#yarn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -150,12 +107,10 @@
 
 
 </a></h2>
-<p><strong>This is bold text</strong></p>
-<p><strong>This is bold text</strong></p>
-<p><em>This is italic text</em></p>
-<p><em>This is italic text</em></p>
-<p><s>Strikethrough</s></p>
-<h2 id="blockquotes" tabindex="-1">Blockquotes <a class="direct-link" href="#blockquotes"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<p>Yarn is another JavaScript package manager, similar to npm. This is an optional step, you can choose to install it after installing Node and npm. To install, open terminal and run <code>npm install --global yarn</code></p>
+<p>You can check to make sure it installed by running <code>yarn --version</code></p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c9vi2rp1o4dlf45qn4yh.png" alt="Image description"></p>
+<h2 id="create-a-directory-for-your-web-component" tabindex="-1">Create a directory for your web component <a class="direct-link" href="#create-a-directory-for-your-web-component"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -163,16 +118,8 @@
 
 
 </a></h2>
-<blockquote>
-<p>Blockquotes can also be nested…</p>
-<blockquote>
-<p>…by using additional greater-than signs right next to each other…</p>
-<blockquote>
-<p>…or with spaces between arrows.</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="lists" tabindex="-1">Lists <a class="direct-link" href="#lists"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<p>Now that all the tooling is installed, you’re just about ready to get started. First, create a directory for your project. I created one by running <code>mkdir -p ~/Documents/git/ist402</code> but you can name it or place it wherever you want.</p>
+<h2 id="starting-your-open-wc-component" tabindex="-1">Starting your open-wc component <a class="direct-link" href="#starting-your-open-wc-component"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -180,50 +127,18 @@
 
 
 </a></h2>
-<p>Unordered</p>
+<p>After navigating to your desired directory, run <code>npm init @open-wc</code> If there are no problems, you should be greeted with this screen:</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0n1giwtztfnj8aapgzkn.png" alt="Image description"></p>
+<p>Congratulations! You’re ready to start working on your web component. Push enter to start your new project and choose the settings you want. Here’s a list of everything I chose:</p>
 <ul>
-<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
-<li>Sub-lists are made by indenting 2 spaces:
-<ul>
-<li>Marker character change forces new list start:
-<ul>
-<li>Ac tristique libero volutpat at</li>
+<li>Web Component</li>
+<li>Enable Linting, Testing, and Demoing</li>
+<li>No TypeScript</li>
+<li>Install dependencies with yarn</li>
 </ul>
-<ul>
-<li>Facilisis in pretium nisl aliquet</li>
-</ul>
-<ul>
-<li>Nulla volutpat aliquam velit</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Very easy!</li>
-</ul>
-<p>Ordered</p>
-<ol>
-<li>
-<p>Lorem ipsum dolor sit amet</p>
-</li>
-<li>
-<p>Consectetur adipiscing elit</p>
-</li>
-<li>
-<p>Integer molestie lorem at massa</p>
-</li>
-<li>
-<p>You can use sequential numbers…</p>
-</li>
-<li>
-<p>…or keep all the numbers as <code>1.</code></p>
-</li>
-</ol>
-<p>Start numbering with offset:</p>
-<ol start="57">
-<li>foo</li>
-<li>bar</li>
-</ol>
-<h2 id="code" tabindex="-1">Code <a class="direct-link" href="#code"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<p>To start your component, run either <code>npm start</code> or <code>yarn start</code> depending on which package manager you installed. Your default web browser will launch and you’ll see your web component!</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wdvvc7fvkf66w412yx3o.png" alt="Image description"></p>
+<h2 id="what-do-these-files-do%3F" tabindex="-1">What do these files do? <a class="direct-link" href="#what-do-these-files-do%3F"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
   <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
@@ -231,214 +146,14 @@
 
 
 </a></h2>
-<p>Inline <code>code</code></p>
-<p>Indented code</p>
-<pre><code>// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-</code></pre>
-<p>Block code “fences”</p>
-<pre><code>Sample text here...
-</code></pre>
-<p>Syntax highlighting</p>
-<pre class="language-js"><code class="language-js"><span class="token keyword">var</span> <span class="token function-variable function">foo</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">bar</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">return</span> bar<span class="token operator">++</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span><br><br>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">foo</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<h2 id="tables" tabindex="-1">Tables <a class="direct-link" href="#tables"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h2>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>data</td>
-<td>path to data files to supply the data that will be passed into templates.</td>
-</tr>
-<tr>
-<td>engine</td>
-<td>engine to be used for processing templates. Handlebars is the default.</td>
-</tr>
-<tr>
-<td>ext</td>
-<td>extension to be used for dest files.</td>
-</tr>
-</tbody>
-</table>
-<p>Right aligned columns</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:right">Option</th>
-<th style="text-align:right">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right">data</td>
-<td style="text-align:right">path to data files to supply the data that will be passed into templates.</td>
-</tr>
-<tr>
-<td style="text-align:right">engine</td>
-<td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td>
-</tr>
-<tr>
-<td style="text-align:right">ext</td>
-<td style="text-align:right">extension to be used for dest files.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="links" tabindex="-1">Links <a class="direct-link" href="#links"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h2>
-<p><a href="http://dev.nodeca.com">link text</a></p>
-<p><a href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a></p>
-<p>Autoconverted link <a href="https://github.com/nodeca/pica">https://github.com/nodeca/pica</a> (enable linkify to see)</p>
-<h2 id="images" tabindex="-1">Images <a class="direct-link" href="#images"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h2>
-<p><img src="https://octodex.github.com/images/minion.png" alt="Minion"><br>
-<img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat"></p>
-<p>Like links, Images also have a footnote style syntax</p>
-<p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat"></p>
-<p>With a reference later in the document defining the URL location:</p>
-<h2 id="plugins" tabindex="-1">Plugins <a class="direct-link" href="#plugins"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h2>
-<p>The killer feature of <code>markdown-it</code> is very effective support of<br>
-<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>.</p>
-<h3 id="emojies" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a> <a class="direct-link" href="#emojies"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<blockquote>
-<p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>
-<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
-</blockquote>
-<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output">how to change output</a> with twemoji.</p>
-<h3 id="subscript-%2F-superscript" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a> <a class="direct-link" href="#subscript-%2F-superscript"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<ul>
-<li>19^th^</li>
-<li>H~2~O</li>
-</ul>
-<h3 id="%3Cins%3E" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a> <a class="direct-link" href="#%3Cins%3E"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<p>++Inserted text++</p>
-<h3 id="%3Cmark%3E" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a> <a class="direct-link" href="#%3Cmark%3E"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<p>==Marked text==</p>
-<h3 id="footnotes" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a> <a class="direct-link" href="#footnotes"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<p>Footnote 1 link[^first].</p>
-<p>Footnote 2 link[^second].</p>
-<p>Inline footnote^[Text of inline footnote] definition.</p>
-<p>Duplicated footnote reference[^second].</p>
-<p>[^first]: Footnote <strong>can have markup</strong></p>
-<pre><code>and multiple paragraphs.
-</code></pre>
-<p>[^second]: Footnote text.</p>
-<h3 id="definition-lists" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a> <a class="direct-link" href="#definition-lists"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<p>Term 1</p>
-<p>:   Definition 1<br>
-with lazy continuation.</p>
-<p>Term 2 with <em>inline markup</em></p>
-<p>:   Definition 2</p>
-<pre><code>    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-</code></pre>
-<p><em>Compact style:</em></p>
-<p>Term 1<br>
-~ Definition 1</p>
-<p>Term 2<br>
-~ Definition 2a<br>
-~ Definition 2b</p>
-<h3 id="abbreviations" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a> <a class="direct-link" href="#abbreviations"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<p>This is HTML abbreviation example.</p>
-<p>It converts “HTML”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p>
-<p>*[HTML]: Hyper Text Markup Language</p>
-<h3 id="custom-containers" tabindex="-1"><a href="https://github.com/markdown-it/markdown-it-container">Custom containers</a> <a class="direct-link" href="#custom-containers"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-</a></h3>
-<p>::: warning<br>
-<em>here be dragons</em><br>
-:::</p>
+<p>Even a simple Hello World web component relies on many files for their functionality. You can check them out yourself (especially the /src folder) and see what’s going on behind the scenes.</p>
+<p>Checking out <a href="https://lit.dev/playground/#sample=examples/full-component">Lit playground</a> was very helpful in understanding the JavaScript used in a boilerplate web component like the one I just made.</p>
+<p>I went through and commented what I thought several code blocks do. Take a look at my <a href="https://github.com/jforcina20/edtechjoker-lab1">git repository</a> for this lab and see that I still have a lot to learn about web components myself!</p>
 
     </div>
     <div class="c-pagination">
         <ul class="c-pagination_list">
-            <li>Next: <a class="c-pagination_link c-underline-link" href="/11ty-starter/posts/en/second/">This is my second post.</a></li>
+            <li>Next: <a class="c-pagination_link c-underline-link" href="/11ty-starter/posts/en/second/">Using the Wikipedia API via the wikipedia-query tag</a></li>
         
         </ul>
     </div>
@@ -457,7 +172,7 @@ Third paragraph of definition 2.
             </a>
         </div>
         <div class="c-footer_item c-footer_author">
-            ©  Your name
+            ©  John Forcina
         </div>
         <div class="c-footer_item c-footer_source">
             <span>sources</span>

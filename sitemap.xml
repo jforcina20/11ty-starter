@@ -3,27 +3,12 @@
   
   <url>
     <loc>/11ty-starter/posts/en/first/</loc>
-    <lastmod>2022-01-01</lastmod>
+    <lastmod>2022-01-16</lastmod>
   </url>
   
   <url>
     <loc>/11ty-starter/posts/en/second/</loc>
-    <lastmod>2022-01-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/posts/en/third/</loc>
-    <lastmod>2022-01-03</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/posts/en/fourth/</loc>
-    <lastmod>2022-01-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/posts/en/fifth/</loc>
-    <lastmod>2022-01-05</lastmod>
+    <lastmod>2022-01-30</lastmod>
   </url>
   
   <url>
@@ -43,26 +28,6 @@
   
   <url>
     <loc>/11ty-starter/tags/</loc>
-    <lastmod>2022-02-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/tags/last-one/</loc>
-    <lastmod>2022-02-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/tags/style/</loc>
-    <lastmod>2022-02-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/tags/another-one/</loc>
-    <lastmod>2022-02-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>/11ty-starter/tags/tag/</loc>
     <lastmod>2022-02-24</lastmod>
   </url>
 </urlset>
